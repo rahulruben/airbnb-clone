@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Banner.css';
 import { Button } from '@material-ui/core';
 import Search from '../search/Search';

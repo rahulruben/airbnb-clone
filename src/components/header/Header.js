@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 
 function Header() {
     return (
@@ -11,7 +10,6 @@ function Header() {
                 <input type="text" />
                 <SearchIcon className="header__search-icon" />
             </div>
-            {/* <PersonOutlineIcon className="header__user" /> */}
         </header>
     )
 }

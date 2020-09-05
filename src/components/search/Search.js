@@ -3,8 +3,6 @@ import './Search.css';
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import { DateRangePicker } from 'react-date-range';
-import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
-import { Button } from '@material-ui/core';
 
 function Search() {
     const [startDate, setStartDate] = useState(new Date());

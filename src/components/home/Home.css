@@ -9,6 +9,7 @@
 
 .wrap {
     flex-wrap: wrap;
+    overflow: visible;
 }
 
 .home__section::-webkit-scrollbar {
