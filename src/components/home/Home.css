@@ -1,0 +1,31 @@
+.home__section {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    overflow-x: auto;
+    padding: 0 1em;
+    margin-bottom: 3em;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.home__section::-webkit-scrollbar {
+    display: none;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.home>h2,
+.home__places {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.home__places > h3{
+    font-size: 14px;
+    font-weight: 200;
+}

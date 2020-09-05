@@ -1,0 +1,14 @@
+.search {
+    position: relative;
+}
+
+
+.search > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: #fff;
+    margin: auto;
+}

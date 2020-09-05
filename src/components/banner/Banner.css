@@ -1,0 +1,76 @@
+.banner {
+    height: 70vh;
+    position: relative;
+    background: url('https://news.airbnb.com/wp-content/uploads/sites/4/2019/06/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.jpg?w=2048') center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.banner__info {
+    padding: 2em;
+    background: black;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 350px;
+    width: 80%;
+    justify-content: center;
+}
+
+.banner__info>h1 {
+    margin-bottom: .5em;
+    font-size: 3rem;
+}
+
+.banner__info>h4 {
+    margin-bottom: 1em;
+}
+
+.banner__info .MuiButtonBase-root {
+    outline: none;
+    border: none;
+    color: #fff;
+    width: fit-content;
+    background-color: #ff7779;
+}
+
+
+.banner__search {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+.banner__searchButton {
+    width: 100%;
+    background: #fff !important;
+    color: #ff7779 !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner__info {
+        width: 40%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .banner__info {
+        width: 100%;
+    }
+    .banner__info>h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner__info {
+        width: 100%;
+    }
+    .banner__info>h1 {
+        font-size: 2rem;
+    }
+}
